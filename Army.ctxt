@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Army()
+comment0.text=\r\n\ Creates\ and\ empty\ Army\r\n
+comment1.params=humans\ dwarves\ elves\ balrogs\ cyberdemons
+comment1.target=Army(int,\ int,\ int,\ int,\ int)
+comment1.text=\r\n\ Creates\ and\ army\ and\ fills\ it\ with\ the\ units\ you\ pick\r\n
+comment2.params=Human
+comment2.target=void\ addHuman(Creature)
+comment2.text=\r\n\ Methods\ to\ add\ indivdual\ units\ to\ an\ army\r\n
+comment3.params=Elf
+comment3.target=void\ addElf(Creature)
+comment4.params=Dwarf
+comment4.target=void\ addDwarf(Creature)
+comment5.params=Balrog
+comment5.target=void\ addBalrog(Creature)
+comment6.params=CyberDemon
+comment6.target=void\ addCyberDemon(Creature)
+comment7.params=foe
+comment7.target=void\ goToWar(java.util.ArrayList)
+comment7.text=\r\n\ Method\ to\ alow\ an\ army\ to\ fight\ another\ army\r\n
+numComments=8
