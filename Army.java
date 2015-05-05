@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Collections;
+import java.util.Random;
 /**
  * Army is an array list that holds a group of creature objects.
  * also can fight against another army or solo creature object.
@@ -75,10 +76,51 @@ public class Army
         army.add(cyberDemon1);
         System.out.println("CyberDemon");
        }
-        
+       
+       //randomize the order of Creatues in the army
+       Collections.shuffle(army);
+       
+      
     }
     
     
+   /**
+    * Show Army method
+    * print out the creatures inside of an army
+    * 
+    */ 
+   public void showArmy()
+   {
+       Iterator<Creature> it = army.iterator();
+       Creature temp;
+       while(it.hasNext())
+       {
+           temp = it.next();
+           if(temp instanceof Human)
+           {
+           System.out.println("Human");
+           }
+           if(temp instanceof Elf)
+           {
+           System.out.println("Elf");
+           }
+           if(temp instanceof Balrog)
+           {
+           System.out.println("Balrog");
+           }
+           if(temp instanceof Dwarf)
+           {
+           System.out.println("Dwarf");
+           }
+           if(temp instanceof CyberDemon)
+           {
+           System.out.println("CyberDemon");
+           }
+           
+        }
+    }
+   
+      
    /**
     * Methods to add indivdual units to an army
     */ 
