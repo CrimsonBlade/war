@@ -17,8 +17,9 @@ public abstract class Creature
   * 
   */  
   Creature(){
-      health = 12;
-      strength = 12;
+      //health = 12;
+      health = rand.nextInt(25) +  5;
+      strength = rand.nextInt(13) + 5;
       
       // or call the other constructor
       //this (12,12);

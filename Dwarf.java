@@ -13,7 +13,7 @@ public class Dwarf extends Creature
     
    Dwarf(){
         super();
-        health *= 2;
+        health += 10;
     }
     
     Dwarf(int str, int hp){
